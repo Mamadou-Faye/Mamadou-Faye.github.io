@@ -31,61 +31,53 @@ body{
 	margin-top:10%;
 }
 
-.myheader .container .row .col-sm-3{
-	margin-top:20%;
+/* debut refonte*/
+.myheader .container .row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.myheader div#moi .row .col-sm-3 div.well a.btn-responsive{
-	cursor: pointer;
-	outline: none;
-	padding: 1.5rem
-}
-
-.myheader div#moi .row .col-sm-3 div.download-cv {
+.myheader div#moi .row div.download-cv {
 	display: none;
 }
 
-.myheader div#moi .row .col-sm-3 div.well{
-	padding: 2rem;
-}
-
-.myheader div#moi .row .col-sm-3 div.well a.btn-responsive span.glyphicon,
-.myheader div#moi .row .col-sm-3 div.well a.btn-responsive span#cv{
-	color: #f16059;
-	font-size: 17px;
-}
-
-.myheader .container .row .col-sm-6 div.photo{
-	padding-left:100px;
-}
-
-.myheader .container .row .col-sm-6 .img-circle{
+.myheader .container .row .monimage .img-circle{
 	width:350px; 
 	height:350px;
 }
 
-.myheader .container div.row div.col-sm-3 div.description {
-	background: #eee;
-	padding: 2rem;
-	border-radius: 3px;
-	margin-top:1rem;
-	color: #f16059;
-	font-family:arial;
+.myheader .container .row div.desc div.description {
+	width: 300px;
+	text-align: justify;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 18px;
 }
 
-#salut{
+.myheader div#moi .row .btn-dowload div.well a.btn-responsive span.glyphicon,
+.myheader div#moi .row .btn-dowload div.well a.btn-responsive span#cv {
+	color: #f16059;
+	font-size: 17px;
+}
+
+.myheader div#moi .a-propos {
+	display: flex;
+	flex-direction: column;
+}
+
+.myheader div#moi .a-propos #salut {
 	font-size:35px;
 	font-family:arial;
 	text-align: center;
 	color: #ffffff;
 }
 
-.post {
-	margin-top: 1.5rem;
+.myheader div#moi .a-propos .post {
 	text-align: center;
 	color: #ffffff;
 	font-family: arial, sans-serif;
-	font-size:25px;
+	font-size:18px;
 }
 
 /*section de mes compétences*/
@@ -372,7 +364,11 @@ button.btn-primary:hover{
 		flex-direction: column-reverse;
 	}
 
-	div#moi div.row div.col-sm-6 div.photo img.img-circle {
+	.myheader .container .row {
+		margin-top: 4rem;
+	}
+
+	.myheader .container .row .monimage .img-circle {
 		width: 120px;
 		height: 120px;
 		margin: auto;
@@ -386,7 +382,7 @@ button.btn-primary:hover{
 		margin-top: -1rem;
 	}
 
-	div#moi div.row div.col-sm-3 div.description {
+	.myheader .container .row div.desc div.description {
 		display: none;
 	}
 
@@ -404,18 +400,21 @@ button.btn-primary:hover{
 		padding: .5rem;
 	}
 
-	#salut {
+
+	.myheader div#moi div.a-propos {
+		display: flex;
+		flex-direction: column;
+		margin-top: -1rem;
+	}
+
+	.myheader div#moi .a-propos #salut {
 		font-size: 20px;
 		text-align: center;
 	}
 
-	.post {
+	.myheader div#moi div.a-propos .post {
 		margin-top: 1rem;
 		font-size: 18px;
 	}
 
-	div#moi div.a-propos {
-		display: flex;
-		flex-direction: column;
-	}
 }
