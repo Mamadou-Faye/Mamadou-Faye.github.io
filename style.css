@@ -365,12 +365,12 @@ button.btn-primary:hover{
 	}
 
 	.myheader .container .row {
-		margin-top: 4rem;
+		margin-top: 5rem;
 	}
 
 	.myheader .container .row .monimage .img-circle {
-		width: 120px;
-		height: 120px;
+		width: 150px;
+		height: 150px;
 		margin: auto;
 	}
 
@@ -386,15 +386,6 @@ button.btn-primary:hover{
 		display: none;
 	}
 
-	.myheader div#moi .row .col-sm-3 div.well {
-		display: none;
-	}
-
-	.myheader div#moi .row .col-sm-3 div.download-cv {
-		display: inline;
-		width: 120px;
-		margin: auto;
-	}
 
 	.myheader div#moi .row .col-sm-3 div.well a.btn-responsive {
 		padding: .5rem;
@@ -415,6 +406,28 @@ button.btn-primary:hover{
 	.myheader div#moi div.a-propos .post {
 		margin-top: 1rem;
 		font-size: 18px;
+	}
+
+	/*Mes compétences*/
+	.mesCompetences .container .row {
+		margin-top: 2rem;
+	}
+
+	div#formations {
+		margin-top: -10rem;
+	}
+
+	section#forms div.container .table {
+		overflow-x: scroll;
+	}
+
+	/*formation*/
+	section#forms div.container .table tr th {
+		font-size: 15px;
+	}
+
+	section#forms div.container .table tr td {
+		font-size: 12px;
 	}
 
 }
