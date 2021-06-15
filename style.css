@@ -4,6 +4,8 @@ html{
 }
 
 body{
+	margin: 0;
+	padding: 0;
 	font-family:arial, sans-serif;
 }
 
@@ -37,6 +39,10 @@ body{
 	cursor: pointer;
 	outline: none;
 	padding: 1.5rem
+}
+
+.myheader div#moi .row .col-sm-3 div.download-cv {
+	display: none;
 }
 
 .myheader div#moi .row .col-sm-3 div.well{
@@ -357,4 +363,59 @@ button.btn-primary:hover{
 
 .myfooter .medium a:hover {
 	color: #f16059;
+}
+
+
+@media screen and (max-width : 680px) {
+	div#moi div.row {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	div#moi div.row div.col-sm-6 div.photo img.img-circle {
+		width: 120px;
+		height: 120px;
+		margin: auto;
+	}
+
+	.myheader .container .row .col-sm-6 div.photo {
+		padding-left: 0;
+	}
+
+	.myheader .container .row .btn-dowload {
+		margin-top: -1rem;
+	}
+
+	div#moi div.row div.col-sm-3 div.description {
+		display: none;
+	}
+
+	.myheader div#moi .row .col-sm-3 div.well {
+		display: none;
+	}
+
+	.myheader div#moi .row .col-sm-3 div.download-cv {
+		display: inline;
+		width: 120px;
+		margin: auto;
+	}
+
+	.myheader div#moi .row .col-sm-3 div.well a.btn-responsive {
+		padding: .5rem;
+	}
+
+	#salut {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.post {
+		margin-top: 1rem;
+		font-size: 18px;
+	}
+
+	div#moi div.a-propos {
+		display: flex;
+		flex-direction: column;
+	}
 }
