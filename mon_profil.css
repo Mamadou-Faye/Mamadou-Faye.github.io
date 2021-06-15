@@ -1,0 +1,360 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family:arial, sans-serif;
+}
+
+/*.myheader{
+	background-image:url('img/8.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	padding-bottom: 1rem;
+}*/
+
+#titre{
+	text-align:center;
+	font-size:30px;
+}
+
+.photo, img{
+	width:70%;
+	height:30%;
+	/* border-radius:200px; */
+	text-align:center;
+	margin-top:10%;
+}
+
+.myheader .container .row .col-sm-3{
+	margin-top:20%;
+}
+
+.myheader div#moi .row .col-sm-3 div.well a.btn-responsive{
+	cursor: pointer;
+	outline: none;
+	padding: 1.5rem
+}
+
+.myheader div#moi .row .col-sm-3 div.well{
+	padding: 2rem;
+}
+
+.myheader div#moi .row .col-sm-3 div.well a.btn-responsive span.glyphicon,
+.myheader div#moi .row .col-sm-3 div.well a.btn-responsive span#cv{
+	color: #f16059;
+	font-size: 17px;
+}
+
+.myheader .container .row .col-sm-6 div.photo{
+	padding-left:100px;
+}
+
+.myheader .container .row .col-sm-6 .img-circle{
+	width:350px; 
+	height:350px;
+}
+
+.myheader .container div.row div.col-sm-3 div.description {
+	background: #eee;
+	padding: 2rem;
+	border-radius: 3px;
+	margin-top:1rem;
+	color: #f16059;
+	font-family:arial;
+}
+
+#salut{
+	font-size:35px;
+	font-family:arial;
+	text-align: center;
+	color: #ffffff;
+}
+
+.post {
+	margin-top: 1.5rem;
+	text-align: center;
+	color: #ffffff;
+	font-family: arial, sans-serif;
+	font-size:25px;
+}
+
+/*section de mes compétences*/
+.gris{
+	border:10px solid slategray;
+	width:70%;
+	display:inline-block;
+}
+.blanc{
+	border:10px solid white;
+	width:30%;
+	display:inline-block;
+}
+.gris1{
+	border:10px solid slategray;
+	width:70%;
+	display:inline-block;
+}
+.blanc1{
+	border:10px solid white;
+	width:30%;
+	display:inline-block;
+}
+.tr1{
+	text-align:center;
+	padding-left:20px;
+}
+.gris2{
+	border:10px solid slategray;
+	width:50%;
+	display:inline-block;
+}
+.blanc2{
+	border:10px solid white;
+	width:50%;
+	display:inline-block;
+}
+.gris3{
+	border:10px solid slategray;
+	width:40%;
+	display:inline-block;
+}
+.blanc3{
+	border:10px solid white;
+	width:60%;
+	display:inline-block;
+}
+.gris4{
+	width:70%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc4{
+	width:30%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris5{
+	width:60%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc5{
+	width:40%;
+	border:10px solid white;
+	display: inline-block;
+}
+.gris6{
+	width:40%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc6{
+	width:60%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris7{
+	width:30%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc7{
+	width:70%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris8{
+	width:60%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc8{
+	width:40%;
+	border:10px solid white;
+	display:inline-block;
+}
+.gris9{
+	width:40%;
+	border:10px solid slategray;
+	display:inline-block;
+}
+.blanc9{
+	width:60%;
+	border:10px solid white;
+	display:inline-block;
+}
+
+.mesCompetences .container .row {
+	margin-top: 10rem;
+}
+
+.mesCompetences .container .row .col-sm-12 h1 {
+	text-align: center;
+	margin-bottom: 4rem;
+	color: #ffffff;
+}
+
+#ans{
+	color: #ffffff;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.mesFormations .container h1{
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.mesFormations .container .text-capitalize{
+	font-family:arial; 
+	font-size:20px;
+	color: #ffffff;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/*.mesFormations .container div.text-capitalize h3 {
+	border-bottom: 1px solid #ffffff;
+}
+*/
+.mesFormations .container .table {
+	font-family:arial; 
+	font-size:15px;
+}
+
+section#forms div.container .table tr:nth-child(2),
+section#forms div.container .table tr:nth-child(4){
+	background-color:#eee;
+}
+
+section#forms div.container .table tr th{
+	font-family: arial, sans-serif;
+	font-size: 25px;
+}
+
+section#forms div.container .table tr td{
+	font-family: arial, sans-serif;
+	font-size: 17px;
+}
+
+/*Mes contacts*/
+.page-section {
+  padding: 6rem 0;
+}
+.page-section h2.titleContact {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.page-section h3.sectionSubHeading {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif", sans-serif;
+  margin-bottom: 4rem;
+}
+
+section#contact {
+  background-color: #212529;
+  background-image: url("../assets/img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#contact .titleContact {
+  color: #fff;
+}
+section#contact form#contactForm .form-group {
+  margin-bottom: 1.5rem;
+}
+section#contact form#contactForm .form-group input,
+section#contact form#contactForm .form-group textarea {
+  padding: 1.25rem;
+}
+section#contact form#contactForm .form-group input.form-control {
+  height: auto;
+}
+section#contact form#contactForm .form-group-textarea {
+  height: 17rem;
+}
+section#contact form#contactForm .form-group-textarea textarea {
+  height: 100%;
+  min-height: 10rem;
+}
+section#contact form#contactForm p.text {
+  margin: 0;
+}
+section#contact form#contactForm .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+section#contact form#contactForm ::-webkit-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm ::-moz-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm ::-moz-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ced4da;
+}
+section#contact form#contactForm ::-ms-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ced4da;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+button.btn-primary{
+	font-family: "Montserrat", sans-serif;
+	background: #eee;
+	outline: none;
+	cursor: pointer;
+	color: #777;
+	padding: 1rem;
+}
+
+button.btn-primary:hover{
+	background: #f16059;
+}
+
+.myfooter{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem;
+	background: #212520;
+	text-align: center;
+}
+
+.myfooter .left,
+.myfooter .right {
+	color: #eee
+}
+
+.myfooter .medium a {
+	text-decoration: none;
+	color: #eee;
+	padding: 1rem;
+}
+
+.myfooter .medium a:hover {
+	color: #f16059;
+}
