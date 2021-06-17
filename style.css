@@ -483,4 +483,25 @@ button.btn-primary:hover{
 		font-size: 12px;
 	}
 
+	section.portfolio div.content-portfolio {
+		display: flex;
+		flex-direction: column;
+	}
+
+	section.portfolio div.content-portfolio div.card-un,
+	section.portfolio div.content-portfolio div.card-deux,
+	section.portfolio div.content-portfolio div.card-trois {
+		margin-bottom: 2rem;
+		padding-bottom: 1rem;
+	}
+
+	section.portfolio div.content-portfolio div.card-un img,
+	section.portfolio div.content-portfolio div.card-deux img,
+	section.portfolio div.content-portfolio div.card-trois img {
+		width: 250px;
+		height: 80%;
+		box-shadow: 0px 0px 8px #000;
+	}
+
+
 }
