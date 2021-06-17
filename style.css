@@ -50,7 +50,7 @@ body{
 .myheader .container .row div.desc div.description {
 	width: 300px;
 	text-align: justify;
-	color: #ffffff;
+	color: #eee;
 	font-family: arial;
 	font-size: 18px;
 }
@@ -70,12 +70,12 @@ body{
 	font-size:35px;
 	font-family:arial;
 	text-align: center;
-	color: #ffffff;
+	color: #eee;
 }
 
 .myheader div#moi .a-propos .post {
 	text-align: center;
-	color: #ffffff;
+	color: #eee;
 	font-family: arial, sans-serif;
 	font-size:18px;
 }
@@ -193,12 +193,12 @@ body{
 .mesCompetences .container .row .col-sm-12 h1 {
 	text-align: center;
 	margin-bottom: 4rem;
-	color: #ffffff;
+	color: #eee;
 	text-transform: uppercase;
 }
 
 #ans{
-	color: #ffffff;
+	color: #eee;
 	font-size: 20px;
 	font-family: arial;
 }
@@ -208,7 +208,7 @@ body{
 }
 
 .mesFormations .container h1{
-	color: #ffffff;
+	color: #eee;
 	text-align: center;
 	margin-bottom: 4rem;
 	text-transform: uppercase;
@@ -217,7 +217,7 @@ body{
 .mesFormations .container .text-capitalize{
 	font-family:arial; 
 	font-size:20px;
-	color: #ffffff;
+	color: #eee;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
@@ -259,7 +259,7 @@ section.portfolio {
 section.portfolio header.header-portfolio h2 {
 	text-align: center;
 	margin-bottom: 4rem;
-	color: #ffffff;
+	color: #eee;
 	text-transform: uppercase;
 }
 
@@ -311,7 +311,7 @@ section#contact {
   background-position: center;
 }
 section#contact .titleContact {
-  color: #fff;
+  color: #eee;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
@@ -368,15 +368,15 @@ section#contact form#contactForm ::-ms-input-placeholder {
 
 button.btn-primary{
 	font-family: "Montserrat", sans-serif;
-	background: #eee;
+	background: #f16059;
 	outline: none;
 	cursor: pointer;
-	color: #777;
+	color: #eee;
 	padding: 1rem;
 }
 
 button.btn-primary:hover{
-	background: #f16059;
+	background: #eee;
 }
 
 .myfooter{
@@ -391,17 +391,17 @@ button.btn-primary:hover{
 
 .myfooter .left,
 .myfooter .right {
-	color: #eee
+	color: #f16059;
 }
 
 .myfooter .medium a {
 	text-decoration: none;
-	color: #eee;
+	color: #f16059;
 	padding: 1rem;
 }
 
 .myfooter .medium a:hover {
-	color: #f16059;
+	color: #eee;
 }
 
 
@@ -491,6 +491,8 @@ button.btn-primary:hover{
 	section.portfolio div.content-portfolio div.card-un,
 	section.portfolio div.content-portfolio div.card-deux,
 	section.portfolio div.content-portfolio div.card-trois {
+		width: 280px;
+		margin: auto;
 		margin-bottom: 2rem;
 		padding-bottom: 1rem;
 	}
@@ -501,6 +503,13 @@ button.btn-primary:hover{
 		width: 250px;
 		height: 80%;
 		box-shadow: 0px 0px 8px #000;
+	}
+
+	.myfoote {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
 	}
 
 
