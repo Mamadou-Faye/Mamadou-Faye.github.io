@@ -501,7 +501,8 @@ button.btn-primary:hover{
 
 	section.portfolio div.content-portfolio div.card-un,
 	section.portfolio div.content-portfolio div.card-deux,
-	section.portfolio div.content-portfolio div.card-trois {
+	section.portfolio div.content-portfolio div.card-trois,
+	section.portfolio div.content-portfolio div.card-quatre {
 		width: 280px;
 		margin: auto;
 		margin-bottom: 2rem;
@@ -523,6 +524,4 @@ button.btn-primary:hover{
 		justify-content: center;
 		align-items:center;
 	}
-
-
 }
