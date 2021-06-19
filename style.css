@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display:wght@600&display=swap');
 
 html{
 	scroll-behavior: smooth;
@@ -19,6 +21,7 @@ body{
 }*/
 
 #titre{
+	font-family: Playfair Display;
 	text-align:center;
 	font-size:30px;
 }
@@ -49,9 +52,9 @@ body{
 
 .myheader .container .row div.desc div.description {
 	width: 300px;
-	text-align: justify;
+	text-align: left;
 	color: #eee;
-	font-family: arial;
+	font-family: Libre Baskerville, sans-serif;
 	font-size: 18px;
 }
 
@@ -59,6 +62,7 @@ body{
 .myheader div#moi .row .btn-dowload div.well a.btn-responsive span#cv {
 	color: #f16059;
 	font-size: 17px;
+	font-family: Libre Baskerville, sans-serif;
 }
 
 .myheader div#moi .a-propos {
@@ -68,7 +72,7 @@ body{
 
 .myheader div#moi .a-propos #salut {
 	font-size:35px;
-	font-family:arial;
+	font-family: Playfair Display;
 	text-align: center;
 	color: #eee;
 }
@@ -76,7 +80,7 @@ body{
 .myheader div#moi .a-propos .post {
 	text-align: center;
 	color: #eee;
-	font-family: arial, sans-serif;
+	font-family: Libre Baskerville, sans-serif;
 	font-size:18px;
 }
 
@@ -191,6 +195,7 @@ body{
 }
 
 .mesCompetences .container .row .col-sm-12 h1 {
+	font-family: Playfair Display;
 	text-align: center;
 	margin-bottom: 4rem;
 	color: #eee;
@@ -200,7 +205,7 @@ body{
 #ans{
 	color: #eee;
 	font-size: 20px;
-	font-family: arial;
+	font-family: Libre Baskerville, sans-serif;
 }
 
 .mesFormations {
@@ -208,6 +213,7 @@ body{
 }
 
 .mesFormations .container h1{
+	font-family: Playfair Display;
 	color: #eee;
 	text-align: center;
 	margin-bottom: 4rem;
@@ -215,7 +221,7 @@ body{
 }
 
 .mesFormations .container .text-capitalize{
-	font-family:arial; 
+	font-family: Libre Baskerville, sans-serif; 
 	font-size:20px;
 	color: #eee;
 	margin-top: 2rem;
@@ -227,7 +233,7 @@ body{
 }
 */
 .mesFormations .container .table {
-	font-family:arial; 
+	font-family: Libre Baskerville, sans-serif; 
 	font-size:15px;
 }
 
@@ -237,13 +243,17 @@ section#forms div.container .table tr:nth-child(4){
 }
 
 section#forms div.container .table tr th{
-	font-family: arial, sans-serif;
+	font-family: Libre Baskerville, sans-serif;
 	font-size: 25px;
 }
 
 section#forms div.container .table tr td{
-	font-family: arial, sans-serif;
+	font-family: Libre Baskerville, sans-serif;
 	font-size: 17px;
+}
+
+section#forms div.container div.formation {
+	display: none;
 }
 
 /* Mon portfolio */
@@ -257,6 +267,7 @@ section.portfolio {
 }
 
 section.portfolio header.header-portfolio h2 {
+	font-family: Playfair Display;
 	text-align: center;
 	margin-bottom: 4rem;
 	color: #eee;
@@ -303,6 +314,7 @@ section.portfolio div.content-portfolio div.card-trois img {
   padding: 6rem 0;
 }
 .page-section h2.titleContact {
+	font-family: Playfair Display;
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -391,6 +403,7 @@ button.btn-primary:hover{
 }
 
 .myfooter{
+	font-family: Libre Baskerville, sans-serif;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -501,17 +514,24 @@ div.content-certif div.card-certif-html-css {
 		margin-top: -10rem;
 	}
 
-	section#forms div.container .table {
-		overflow-x: scroll;
-	}
-
 	/*formation*/
-	section#forms div.container .table tr th {
-		font-size: 15px;
+	section#forms div.container .table {
+		display: none;
 	}
 
-	section#forms div.container .table tr td {
-		font-size: 12px;
+	section#forms div.container div.formation {
+		display: block;
+		background: #eeeeee;
+		padding: 1rem;
+	}
+
+	section#forms div.container div.formation span {
+		font-family: Playfair Display;
+	}
+
+	section#forms div.container div.formation ul li {
+		font-family: Montserrat, sans-serif;
+		color: #777;
 	}
 
 	section.portfolio div.content-portfolio {
