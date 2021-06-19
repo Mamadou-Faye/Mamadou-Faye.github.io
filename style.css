@@ -415,6 +415,26 @@ button.btn-primary:hover{
 	color: #eee;
 }
 
+/* mes certifications */
+
+body.certification {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #f16059;
+}
+
+div.content-certif {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+div.content-certif div.card-certif-html-css {
+	width: 80%;
+	margin: auto;
+}
+
 
 @media screen and (max-width : 680px) {
 
@@ -523,5 +543,11 @@ button.btn-primary:hover{
 		flex-direction: column;
 		justify-content: center;
 		align-items:center;
+	}
+
+	div.content-certif div.card-certif-html-css  {
+		width: 260px;
+		height: 100%;
+		margin: auto;
 	}
 }
