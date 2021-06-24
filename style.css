@@ -510,6 +510,10 @@ div.content-certif div.card-certif-html-css {
 		margin-top: 2rem;
 	}
 
+	.mesCompetences .container .row div.col-sm-12 table.table {
+		/*table de conmpétences*/
+	}
+
 	div#formations {
 		margin-top: -10rem;
 	}
