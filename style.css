@@ -577,6 +577,11 @@ div.content-certif div.card-certif-html-css {
 		align-items:center;
 	}
 
+	.myfooter .medium {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	} 
+
 	div.content-certif div.card-certif-html-css  {
 		width: 260px;
 		height: 100%;
