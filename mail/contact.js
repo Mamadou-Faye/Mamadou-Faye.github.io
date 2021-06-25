@@ -3,13 +3,14 @@ $(function () {
 		preventSubmit:true,
 		SubmitError: function($form, event,  errors){
 			// ici mon message ou evenement
+			event.preventDefault();
 		},
 		SubmitSuccess: function ($form, event) {
 			event.preventDefault();
 			// récupérer les information depuis mon formulaire
 			var name = $("input#name").val();
 			var email = $("input#email").val();
-			var phone = $("input#phone")val();
+			var phone = $("input#phone").val();
 			var message = $("textarea#message").val();
 			var userName = name;
 			// autoriser la saisi des espaces dans le nom de l'utilisateur
