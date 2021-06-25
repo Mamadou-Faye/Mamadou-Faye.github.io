@@ -432,6 +432,10 @@ button.btn-primary:hover{
 	color: #eee;
 }
 
+.myfooter .medium a span {
+	font-size: 25px;
+}
+
 /* mes certifications */
 
 body.certification {
