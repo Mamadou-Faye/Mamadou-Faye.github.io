@@ -407,7 +407,7 @@ section#contact form#contactForm ::-ms-input-placeholder {
   text-transform: uppercase !important;
 }
 
-button.btn-primary{
+button#btnEnvoi{
 	font-family: "Montserrat", sans-serif;
 	background: #C60030;
 	outline: none;
@@ -416,7 +416,7 @@ button.btn-primary{
 	padding: 1rem;
 }
 
-button.btn-primary:hover{
+button#btnEnvoi:hover{
 	background: #f16059;
 }
 
