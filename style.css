@@ -63,6 +63,11 @@ body{
 	font-size: 17px;
 }
 
+.myheader div#moi .row .btn-dowload div.well a.btn-responsive {
+	cursor: pointer;
+	outline: none;
+}
+
 .myheader div#moi .row .btn-dowload div.well a.btn-responsive span#cv {
 	color: #f16059;
 	font-size: 17px;
