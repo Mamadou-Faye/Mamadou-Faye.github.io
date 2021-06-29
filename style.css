@@ -409,7 +409,7 @@ section#contact form#contactForm ::-ms-input-placeholder {
 
 button.btn-primary{
 	font-family: "Montserrat", sans-serif;
-	background: #f16059;
+	background: #C60030;
 	outline: none;
 	cursor: pointer;
 	color: #eee;
@@ -417,7 +417,7 @@ button.btn-primary{
 }
 
 button.btn-primary:hover{
-	background: #eee;
+	background: #f16059;
 }
 
 .myfooter{
@@ -433,17 +433,17 @@ button.btn-primary:hover{
 
 .myfooter .left,
 .myfooter .right {
-	color: #f16059;
+	color: #C60030;
 }
 
 .myfooter .medium a {
 	text-decoration: none;
-	color: #f16059;
+	color: #C60030;
 	padding: 1rem;
 }
 
 .myfooter .medium a:hover {
-	color: #eee;
+	color: #f16059;
 }
 
 .myfooter .medium a span {
