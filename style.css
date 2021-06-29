@@ -260,6 +260,20 @@ section#forms div.container div.formation {
 	display: none;
 }
 
+#btnform, #btncertif {
+	text-decoration: none;
+	background: #eee;
+	padding: 6px 12px;
+	border-radius: 10px;
+	color: #f16059;
+}
+
+#btnform:hover, #btncertif:hover {
+	color: #C60030;
+}
+
+
+
 /* Mon portfolio */
 section.portfolio {
 	display: flex;
