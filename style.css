@@ -20,120 +20,8 @@ body{
 	padding-bottom: 1rem;
 }*/
 
-/*==============================================*/
 
-nav {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	position: fixed;
-	top: 0;
-	left: 0;
-	padding: 40px 100px;
-	width: 100%;
-	margin: auto;
-	z-index: 10000;
-	transition: 0.5s;
-}
-
-nav.sticky {
-	background: #eee;
-	padding: 10px 100px;
-	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-}
-
-nav h1 {
-	color: #eee;
-}
-
-nav.sticky h1 {
-	color: #222;
-}
-
-nav h1 span {
-	color: #C60030;
-}
-
-ul {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-ul li {
-	padding: 6px 15px;
-	list-style-type: none;
-}
-
-ul li a {
-	text-decoration: none;
-	color: #eee;
-}
-
-nav.sticky ul li a {
-	color: #222;
-}
-
-ul li a:hover {
-	color: #C60030;
-}
-
-header {
-	display: flex;
-	flex-direction: column-reverse;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	background: url('img/img9.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 100vh;
-}
-
-header h1 {
-	font-family: Playfair Display;
-	font-size: 35px;
-	color: #ffffff;
-}
-
-header button {
-	outline: none;
-	cursor: pointer;
-	padding: .6rem 1rem;
-	color: #222;
-	margin-top: 2rem;
-}
-
-header em {
-	color: #ffffff;
-	font-style: italic;
-}
-
-header img {
-	width: 220px;
-	height: 220px;
-	border-radius: 100%;
-}
-
-.btn {
-	margin-top: 20px;
-	padding: 10px 20px;
-	background: #eee;
-	border-radius: 10px;
-	color: #222;
-	cursor: pointer;
-}
-
-.btn:hover {
-	letter-spacing: 2px;
-	transition: 0.5s;
-}
-
-/*=================================================*/
-
-/*#titre{
+#titre{
 	font-family: Playfair Display;
 	text-align:center;
 	font-size:30px;
@@ -145,9 +33,9 @@ header img {
 	text-align:center;
 	margin-top:10%;
 }
-*/
+
 /* debut refonte*/
-/*.myheader .container .row {
+.myheader .container .row {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -203,7 +91,7 @@ header img {
 	color: #eee;
 	font-family: Libre Baskerville, sans-serif;
 	font-size:18px;
-}*/
+}
 
 /*section de mes compétences*/
 .gris{
