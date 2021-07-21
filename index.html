@@ -11,7 +11,7 @@
     <srcipt src="js/bootstrap.min.js"></srcipt>
 </head>
 <body style="background-color: #f16059"><!-- linear-gradient(#f16059, #C60030); -->
-
+    
     <nav>
         <h1><span>W</span>eb<span>S</span>ite</h1>
         <ul>
@@ -27,9 +27,9 @@
         <a class="btn" id="btn"><i class="ti-download"></i> Télécharger mon cv</a>
         <em>Développeur Web Mobile Junior</em>
         <h1 id="titre">Salut c'est moi Mamadou Faye</h1>
-        <img src="images/1.jpg">
+        <img src="img/moi.jpg">
     </header>
-    
+
     <!-- <div spy="scrollspy" data-toggle="navbar" target="mynavbar" data-offset="100" class="container-fuild">
         
         <header class="myheader">
@@ -341,5 +341,11 @@
     <script src="mail/contact.js"></script>
     <script src="mail/jqBootstrapValidation.js"></script>
     <script src="script/script.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('nav');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
 </body>
 </html>
