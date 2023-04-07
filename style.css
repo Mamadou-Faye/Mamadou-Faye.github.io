@@ -9,6 +9,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family:arial, sans-serif;
+	background-color: #ced4da;
 }
 
 /*.myheader{
@@ -580,4 +581,10 @@ button#btnEnvoi:hover{
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 	} 
+}
+
+.container .row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
